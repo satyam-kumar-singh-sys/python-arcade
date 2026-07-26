@@ -45,9 +45,8 @@ python-arcade/
 ```
 ## Getting Started
 ### Prerequisites
-Python 3.8 or higher installed on your computer.
-
-Essential libraries installed (e.g., qrcode, pillow).
+* Python 3.7.1 or higher installed on your computer.
+* Essential libraries installed (e.g., qrcode, pillow).
 
 ### Installation & Setup
 1. Clone the repository:
