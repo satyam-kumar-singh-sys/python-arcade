@@ -1,4 +1,4 @@
-# 🕹️ Python Arcade
+# Python Arcade
 
 [![Python Version](https://img.shields.io/badge/python-3.8%2B-blue.svg)](https://www.python.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
@@ -7,16 +7,16 @@
 
 ---
 
-## ✨ Included Apps & Games
+## Included Apps & Games
 
-### 🛠️ Utilities
+### Utilities
 * **ATM Simulator:** Manage virtual deposits, withdrawals, and check account transaction history secured by a PIN.
 * **Currency Converter:** Convert values between USD, EUR, and CAD with real-time history tracking.
 * **QR Code Generator:** Generate custom QR code images with customized colors and save them directly to your machine.
 * **Text Editor:** A simple CLI text editor allowing you to write, overwrite, or append content to files.
 * **To-Do App:** Keep track of your daily tasks and to-do lists.
 
-### 🎲 Games & Entertainment
+### Games
 * **Slot Machine:** A multi-symbol casino slot game featuring animated reel spins, bets, and payout multipliers.
 * **Pig Dice:** A multi-player turn-based risk-and-reward dice game where rolling a `1` clears your turn's points.
 * **Number Guessing:** Test your luck against configurable minimum/maximum ranges with limited attempts and best-score tracking.
@@ -25,7 +25,7 @@
 
 ---
 
-## 📁 Repository Structure
+## Repository Structure
 
 ```text
 python-arcade/
@@ -42,30 +42,30 @@ python-arcade/
     ├── text_editor.py
     ├── to_do_app.py
     └── word_guessing.py
-🚀 Getting Started
-Prerequisites
+```
+## Getting Started
+### Prerequisites
 Python 3.8 or higher installed on your computer.
 
 Essential libraries installed (e.g., qrcode, pillow).
 
-🛠️ Installation & Setup
-Clone the repository:
-
-Bash
+### Installation & Setup
+1. Clone the repository:
+```
 git clone [https://github.com/your-username/python-arcade.git](https://github.com/your-username/python-arcade.git)
 cd python-arcade
-Install required dependencies:
-
-Bash
+```
+2. Install required dependencies:
+```
 pip install qrcode pillow
-Run the application:
-
-Bash
+```
+3.Run the application:
+```
 python main.py
-🎮 How to Play
+```
+## How to Play
 Upon executing main.py, you will see the interactive terminal menu:
-
-Plaintext
+```
 ==========================
 Welcome to Python Arcade!
 ==========================
@@ -81,7 +81,8 @@ Welcome to Python Arcade!
 10. Slot Machine
 11. Exit
 ==========================
+```
 Simply type the number corresponding to the tool or game you wish to run and press Enter!
 
-📄 License
+## License
 This project is open-source and available under the MIT License.
