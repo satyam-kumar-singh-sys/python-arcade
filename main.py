@@ -1,4 +1,4 @@
-import modules.atm_sim as atm_sim
+import modules.atm_sim_old as atm_sim_old
 import modules.currency_convertor as currency_convertor
 import modules.qrcode_gen as qrcode_gen
 import modules.text_editor as text_editor
@@ -8,6 +8,7 @@ import modules.word_guessing as word_guessing
 import modules.number_guessing as number_guessing
 import modules.pig_dice as pig_dice
 import modules.slot_machine as slot_machine
+import modules.atm_sim_new as atm_sim_new
 import time
 
 def menu_help():
@@ -15,17 +16,18 @@ def menu_help():
 ==========================
 Welcome to Python Arcade!
 ==========================
-1. ATM Simulator
-2. Currency Convertor
-3. QR Code Generator
-4. Text Editor
-5. To Do App
-6. Dice Roll
-7. Word Guessing
-8. Number Guessing
-9. Pig Dice
-10.Slot Machine
-11.Exit
+1. ATM Simulator (Old Ver)
+2. ATM Simulator (New Ver)
+3. Currency Convertor
+4. QR Code Generator
+5. Text Editor
+6. To Do App
+7. Dice Roll
+8. Word Guessing
+9. Number Guessing
+10.Pig Dice
+11.Slot Machine
+0. Exit
 ==========================
 ''')
 
@@ -48,36 +50,39 @@ def menu():
             #     sys.stdin = open(0)
 
         if user_input == "1":
-            atm_sim.start_atm()
+            atm_sim_old.start_atm_old()
 
         elif user_input == "2":
-            currency_convertor.start_currency_convertor()
+            atm_sim_new.start_atm_sim_new()
 
         elif user_input == "3":
-            qrcode_gen.use_qrcode_gen()
+            currency_convertor.start_currency_convertor()
 
         elif user_input == "4":
-            text_editor.use_text_editor()
+            qrcode_gen.use_qrcode_gen()
 
         elif user_input == "5":
-            to_do_app.use_to_do_app()
+            text_editor.use_text_editor()
 
         elif user_input == "6":
-            dice_roll.play_dice_roll()
+            to_do_app.use_to_do_app()
 
         elif user_input == "7":
-            word_guessing.play_word_guesser()
+            dice_roll.play_dice_roll()
 
         elif user_input == "8":
-            number_guessing.play_number_guesser()
+            word_guessing.play_word_guesser()
 
         elif user_input == "9":
-            pig_dice.play_pig_dice()
+            number_guessing.play_number_guesser()
 
         elif user_input == "10":
-            slot_machine.play_slot_machine()
+            pig_dice.play_pig_dice()
 
         elif user_input == "11":
+            slot_machine.play_slot_machine()
+            
+        elif user_input == "0":
             print("Thanks for using Python Arcade!")
             exit()
         else:
