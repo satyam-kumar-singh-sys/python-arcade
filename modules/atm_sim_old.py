@@ -1,4 +1,4 @@
-def start_atm():
+def start_atm_old():
     import getpass
 
     user_pin = 1234
