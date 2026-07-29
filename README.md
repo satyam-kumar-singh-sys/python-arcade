@@ -10,7 +10,8 @@
 ## Included Apps & Games
 
 ### Utilities
-* **ATM Simulator:** Manage virtual deposits, withdrawals, and check account transaction history secured by a PIN.
+* **ATM Simulator (old ver):** Manage virtual deposits, withdrawals, and check account transaction history secured by a PIN.
+* **ATM Simulator (new ver):** Along with all functions of the old ver, allows multi-account management, inter-account transactions.
 * **Currency Converter:** Convert values between USD, EUR, and CAD with real-time history tracking.
 * **QR Code Generator:** Generate custom QR code images with customized colors and save them directly to your machine.
 * **Text Editor:** A simple CLI text editor allowing you to write, overwrite, or append content to files.
@@ -32,7 +33,8 @@ python-arcade/
 │
 ├── main.py                   # Central interactive menu loop
 └── modules/                  # Package containing all individual tools/games
-    ├── atm_sim.py
+    ├── atm_sim_old.py
+    ├── atm_sim_new.py
     ├── currency_convertor.py
     ├── dice_roll.py
     ├── number_guessing.py
@@ -68,17 +70,18 @@ Upon executing main.py, you will see the interactive terminal menu:
 ==========================
 Welcome to Python Arcade!
 ==========================
-1. ATM Simulator
-2. Currency Convertor
-3. QR Code Generator
-4. Text Editor
-5. To Do App
-6. Dice Roll
-7. Word Guessing
-8. Number Guessing
-9. Pig Dice
-10. Slot Machine
-11. Exit
+1. ATM Simulator (Old ver)
+2. ATM Simulator (New Ver
+3. Currency Convertor
+4. QR Code Generator
+5. Text Editor
+6. To Do App
+7. Dice Roll
+8. Word Guessing
+9. Number Guessing
+10.Pig Dice
+11.Slot Machine
+12.Exit
 ==========================
 ```
 Simply type the number corresponding to the tool or game you wish to run and press Enter!
