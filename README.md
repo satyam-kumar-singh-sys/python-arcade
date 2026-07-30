@@ -53,7 +53,7 @@ python-arcade/
 ### Installation & Setup
 1. Clone the repository:
 ```
-git clone [https://github.com/your-username/python-arcade.git](https://github.com/your-username/python-arcade.git)
+git clone [https://github.com/satyam-kumar-singh-sys/python-arcade.git](https://github.com/satyam-kumar-singh-sys/python-arcade.git)
 cd python-arcade
 ```
 2. Install required dependencies:
