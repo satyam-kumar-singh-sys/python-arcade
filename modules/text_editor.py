@@ -23,7 +23,7 @@ def use_text_editor():
 
     while True:
         overwrite_or_append = input("Do you want to (o)verwrite or (a)ppend the file?: ")
-        if overwrite_or_append == "o" or "a":
+        if overwrite_or_append == "o" or overwrite_or_append == "a":
             break
         else:
             print("Choose between (o/a).")
